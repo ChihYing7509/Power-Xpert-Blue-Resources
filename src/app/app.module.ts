@@ -15,9 +15,12 @@ import {ComingSoonComponent} from './comingsoon/comingsoon.component';
 
 import { AppRoutingModule } from './app.router';
 import {NavigationService} from './shared/navigation.service';
+import { OverviewComponent } from './overview/overview.component';
+import { NpmPackagesComponent } from './npm-packages/npm-packages.component';
+import { DesignPatternsComponent } from './design-patterns/design-patterns.component';
 
 @NgModule({
-  declarations: [AppComponent, ComingSoonComponent],
+  declarations: [AppComponent, ComingSoonComponent, OverviewComponent, NpmPackagesComponent, DesignPatternsComponent],
   imports: [
     AppRoutingModule,
     BrowserAnimationsModule,

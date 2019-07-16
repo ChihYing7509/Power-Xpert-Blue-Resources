@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {NavigationService} from '../shared/navigation.service';
-import { ActivatedRoute }    from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'coming-soon',
