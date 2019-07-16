@@ -4,4 +4,30 @@
     </button>
     <h6 class="example-app-name">{{title}}</h6>
   </mat-toolbar>
-<p>overview works!</p>
+
+
+<div class="container">
+  <div style="padding-bottom: 50vh">
+    <h1>Power Xpert Blue Resources</h1>
+    <p>Power Xpert Blue offers a number of resources for developers, available through 
+      <a href="https://www.npmjs.com/org/pxblue" target="_blank" rel="noopener noreferrer">
+        NPM</a>
+         and 
+      <a href="https://github.com/pxblue" target="_blank" rel="noopener noreferrer">
+        Github</a>
+        . These include utility packages as well as sample code/design pattern examples.
+    </p>
+    <h2>NPM Packages</h2>
+    <p>The 
+      <a [routerLinkActive]="['primaryLink']" routerLink="/NPMpackages">NPM Packages</a> 
+      page shows the current status for PX Blue resources available through NPM.
+    </p>
+    <h2>Design Patterns / Examples</h2>
+    <p>The 
+      <a [routerLinkActive]="['primaryLink']" routerLink="/DesignPatterns">Design Patterns / Examples</a> 
+      page shows the current status of the PX Blue design pattern code samples available from GitHub and 
+      <a href="https://stackblitz.com/@px-blue" target="_blank" rel="noopener noreferrer">
+        StackBlitz</a>.
+    </p>
+  </div>
+</div>

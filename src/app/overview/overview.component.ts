@@ -14,6 +14,6 @@ export class OverviewComponent implements OnInit {
     this._navigationService.toggleMenu();
   }
   ngOnInit() {
-    this.title = this.route.snapshot.data['title']
+    this.title = this.route.snapshot.data['title'];
   }
 }
